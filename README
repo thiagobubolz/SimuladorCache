@@ -1,0 +1,15 @@
+Trabalho de AOC-2 Simulador de Caches
+
+Integrantes: Thiago Luiz Alves Bubolz e Leonardo Pereira de Lima
+
+O trabalho consiste em um simulador de cache de dois niveis implementado em linguagem C++.
+Não foi feita a leitura de arquivos binários pois na hora da implementação acabou gerando muitos erros.
+Portanto apenas a leitura de arquivos .txt foi implementada, logo a seguir segue as informações para rodar o programa.
+
+Compilar e Rodar o Codigo:
+
+*Para compilar pelo terminal no linux: gcc SimuladorCache.cpp -o SimuladorCache
+*Para executar o código: ./SimuladorCache nsets_L1i bsize_L1i assoc_L1i nsets_L1d bsize_L1d assoc_L1d
+nsets_L2 bsize_L2 assoc_L2 arquivo_de_entrada.txt
+Exemplo
+./SimuladorCache 10 5 5 10 5 5 20 5 5 arqTexto1_rw_10k.txt
